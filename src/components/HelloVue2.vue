@@ -4,7 +4,7 @@
 
 <script>
 export default {
-  name: "HelloVue"
+  name: "HelloVue2"
 }
 </script>
 
