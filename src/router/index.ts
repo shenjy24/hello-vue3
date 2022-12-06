@@ -1,6 +1,6 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import {createRouter, createWebHistory} from 'vue-router'
 import HomeView from '../views/HomeView.vue'
-import CalculatorView from '../views/CalculatorView.vue'
+import ModuleView from '../views/ModuleView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -11,9 +11,9 @@ const router = createRouter({
       component: HomeView
     },
     {
-      path: '/calculator',
-      name: 'calculator',
-      component: CalculatorView
+      path: '/module/:id',
+      name: 'module',
+      component: ModuleView
     }
   ]
 })
