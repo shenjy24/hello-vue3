@@ -13,10 +13,11 @@ onMounted(() => {
 <script lang="ts">
 import Calculator from "@/components/module/Calculator.vue"
 import TodoList from "@/components/module/TodoList.vue"
+import StudentList from "@/components/module/StudentList.vue"
 
 export default {
   // 注册组件
-  components: {Calculator, TodoList}
+  components: {Calculator, TodoList, StudentList}
 }
 </script>
 
